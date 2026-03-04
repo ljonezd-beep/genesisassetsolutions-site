@@ -1,0 +1,15 @@
+---
+layout: default
+title: "Contact"
+description: "Contact Genesis Asset Solutions LLC."
+---<section class="content-section">
+  <h2>Contact</h2>
+  <p class="contact-line">
+    Phone: <a href="tel:{{ site.phone | replace: "-", "" }}">{{ site.phone }}</a><br>
+    Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+  </p>
+  <p>If you want a free property check, email us with your business name (or your name), city/state, and any relevant prior addresses. We will reply with next steps.</p>
+  <p><a class="btn" href="mailto:{{ site.email }}?subject=Request%20a%20Free%20Property%20Check">{{ site.cta_text }}</a></p>
+
+  <p class="method-line">NAP: <strong>{{ site.title }}</strong> | <strong>{{ site.phone }}</strong> | <strong>{{ site.email }}</strong></p>
+</section>

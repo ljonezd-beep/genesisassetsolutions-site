@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <p><strong>{{ site.title }}</strong></p>
+  <p>
+    <a href="tel:{{ site.phone | replace: "-", "" }}" style="color:#fff; text-decoration:underline;">{{ site.phone }}</a>
+    &nbsp;|&nbsp;
+    <a href="mailto:{{ site.email }}" style="color:#fff; text-decoration:underline;">{{ site.email }}</a>
+  </p>
+  <p style="max-width: 860px; margin: 0 auto;">
+    Unclaimed property and asset recovery services. Service area: {{ site.service_area }}.
+    Genesis Asset Solutions LLC is not a government agency and is not affiliated with any state or federal office.
+  </p>
+  <p style="opacity:0.9;">© {{ "now" | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+</footer>

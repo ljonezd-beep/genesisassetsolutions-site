@@ -1,0 +1,34 @@
+---
+layout: default
+title: "Home"
+description: "Unclaimed property and asset recovery services in Texas."
+---
+
+<section class="hero">
+  <p class="eyebrow">Unclaimed property recovery</p>
+  <h1>Recover Money That Belongs To You</h1>
+  <p>{{ site.title }} helps businesses and individuals recover unclaimed funds held by state agencies.</p>
+  <a class="btn" href="{{ "/contact.html" | relative_url }}">{{ site.cta_text }}</a>
+</section>
+
+<section class="content-section">
+  <h2>What We Do</h2>
+  <p>We help identify potential unclaimed property, verify ownership, and support clients through the claim process with clear documentation and careful handling of information.</p>
+  <p class="method-line">NAP (for verification): <strong>{{ site.title }}</strong> | <strong>{{ site.phone }}</strong> | <strong>{{ site.email }}</strong></p>
+</section>
+
+<section class="content-section">
+  <h2>How It Works</h2>
+  <ol class="method-list">
+    <li><strong>Identify potential claims</strong> through research and record review.</li>
+    <li><strong>Verify ownership</strong> using client-provided documentation.</li>
+    <li><strong>Assist with the recovery process</strong> and submission steps as needed.</li>
+  </ol>
+  <p>We are not a government agency and we do not guarantee recovery amounts or timelines.</p>
+</section>
+
+<section class="content-section engagement">
+  <h2>Service Area</h2>
+  <p>Primary service area: <strong>{{ site.service_area }}</strong>. We can assist with multi-state recovery depending on the case.</p>
+  <p class="contact-line">Call: <a href="tel:{{ site.phone | replace: "-", "" }}">{{ site.phone }}</a> · Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+</section>

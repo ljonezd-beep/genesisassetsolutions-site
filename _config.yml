@@ -1,0 +1,9 @@
+title: "Genesis Asset Solutions LLC"
+description: "Unclaimed property and asset recovery services for businesses and individuals."
+email: "dustin@genesisassetsolutions.com"
+phone: "888-506-2708"
+service_area: "Texas"
+owner_name: "Dustin Lee Jones"
+cta_text: "Request a Free Property Check"
+# IMPORTANT: Set this after deployment
+url: "https://GITHUB_USERNAME.github.io"

@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Company Profile"
+description: "Verification-friendly company profile for Genesis Asset Solutions LLC."
+---<section class="content-section">
+  <h2>Company Profile</h2>
+  <p><strong>Legal Name:</strong> {{ site.title }}</p>
+  <p><strong>Services:</strong> Unclaimed property and asset recovery support (business and individual).</p>
+  <p><strong>Primary Service Area:</strong> {{ site.service_area }}</p>
+
+  <h3 style="color: var(--genesis-navy);">Contact</h3>
+  <p>
+    Phone: <a href="tel:{{ site.phone | replace: "-", "" }}">{{ site.phone }}</a><br>
+    Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+  </p>
+
+  <p>This page is intended for business verification and listing accuracy. No physical address is displayed here.</p>
+
+  <p class="method-line">NAP: <strong>{{ site.title }}</strong> | <strong>{{ site.phone }}</strong> | <strong>{{ site.email }}</strong></p>
+</section>
