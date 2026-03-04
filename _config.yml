@@ -5,5 +5,6 @@ phone: "888-506-2708"
 service_area: "Texas"
 owner_name: "Dustin Lee Jones"
 cta_text: "Request a Free Property Check"
-# IMPORTANT: Set this after deployment
-url: "https://GITHUB_USERNAME.github.io"
+
+url: "https://ljonezd-beep.github.io"
+baseurl: "/genesisassetsolutions-site"
