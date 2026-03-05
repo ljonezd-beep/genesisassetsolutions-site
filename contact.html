@@ -4,14 +4,36 @@ title: "Contact"
 description: "Contact Genesis Asset Solutions LLC."
 ---
 
-<section class="content-section">
-  <h2>Contact</h2>
-  <p class="contact-line">
-    Phone: <a href="tel:{{ site.phone | replace: "-", "" }}">{{ site.phone }}</a><br>
-    Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-  </p>
-  <p>If you want a free property check, email us with your business name (or your name), city/state, and any relevant prior addresses. We will reply with next steps.</p>
-  <p><a class="btn" href="mailto:{{ site.email }}?subject=Request%20a%20Free%20Property%20Check">{{ site.cta_text }}</a></p>
+<section class="contact-form">
 
-  <p class="method-line">NAP: <strong>{{ site.title }}</strong> | <strong>{{ site.phone }}</strong> | <strong>{{ site.email }}</strong></p>
+  <h2>Request a Free Property Check</h2>
+
+  <p>
+    Enter your business information below and we will check for potential
+    unclaimed assets held by the state.
+  </p>
+
+  <form action="https://formspree.io/f/YOURID" method="POST">
+
+    <label>Business Name</label>
+    <input type="text" name="business" required>
+
+    <label>City</label>
+    <input type="text" name="city">
+
+    <label>Contact Name</label>
+    <input type="text" name="name" required>
+
+    <label>Email</label>
+    <input type="email" name="email" required>
+
+    <label>Phone</label>
+    <input type="tel" name="phone">
+
+    <button type="submit" class="btn">
+      Check for Unclaimed Property
+    </button>
+
+  </form>
+
 </section>
