@@ -179,3 +179,45 @@ section{
   color:#1FA6A3;
   text-decoration:none;
 }
+
+
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width:768px){
+
+.hero h1{
+font-size:36px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.main-nav{
+padding:15px;
+}
+
+.nav-links{
+flex-direction:column;
+gap:10px;
+margin-top:10px;
+}
+
+.results-grid{
+flex-direction:column;
+}
+
+.result{
+margin-bottom:20px;
+}
+
+section{
+padding:60px 20px;
+}
+
+}
+
