@@ -859,3 +859,51 @@ body{
 }
 
 
+
+ /* TRUST STRIP */
+
+.trust-strip{
+  background:#F5F7FA;
+  padding:40px 20px;
+  text-align:center;
+  font-size:18px;
+}
+
+.trust-inner{
+  max-width:900px;
+  margin:0 auto;
+}
+
+/* HOW IT WORKS */
+
+.how-it-works{
+  padding:80px 20px;
+  text-align:center;
+}
+
+.how-inner{
+  max-width:1000px;
+  margin:0 auto;
+}
+
+.steps{
+  display:flex;
+  gap:30px;
+  margin-top:40px;
+  justify-content:center;
+}
+
+.step{
+  flex:1;
+  padding:20px;
+}
+
+.step h3{
+  margin-bottom:10px;
+  color:#0B2A4A;
+}
+
+.step p{
+  font-size:16px;
+}
+
