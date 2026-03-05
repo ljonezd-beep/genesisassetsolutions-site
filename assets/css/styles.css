@@ -254,7 +254,7 @@ a {
   text-decoration: none;
 }
 
-/* ===== GENESIS WEBSITE LAYOUT FIX ===== */
+
 
 body {
     line-height: 1.7;
@@ -316,7 +316,7 @@ li {
 
 body { background: #f5f5f5; }
 
-/* ===== GENESIS SITE CONTAINER FIX (Jekyll Layout) ===== */
+
 
 body {
   line-height: 1.7;
@@ -370,11 +370,7 @@ li {
   margin-bottom: 12px;
 }
 
-/* ===== HEADER FIX (override) ===== */
-.site-header {
-  background: var(--genesis-navy) !important;
-  border-bottom: 2px solid var(--accent-teal) !important;
-}
+
 
 .main-nav {
   max-width: 1100px;
@@ -431,11 +427,7 @@ li {
   margin: 0 !important;
 }
 
-/* ===== FORCE HEADER VISIBILITY (FINAL) ===== */
-.site-header {
-  background: #0B1F3B !important;
-  border-bottom: 2px solid #1FA6A3 !important;
-}
+
 
 .main-nav {
   display: flex !important;
@@ -485,11 +477,7 @@ li {
   white-space: nowrap !important;
   margin: 0 !important;
 }
- /* ===== HEADER LAYOUT FIX ===== */
-.site-header {
-  background:#0B1F3B !important;
-  border-bottom:2px solid #1FA6A3 !important;
-}
+ 
 
 .main-nav{
   display:flex !important;
@@ -536,7 +524,7 @@ li {
 }
 
 
- /* ===== PROFESSIONAL HEADER LAYOUT ===== */
+ 
 
 .site-header{
   position:sticky;
@@ -585,14 +573,7 @@ li {
   transform:translateY(-12px);
 }
 
- /* ===== LOGO SAFE FIT (NO CROP) ===== */
-.logo-wrap{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  overflow:visible;
-  height:auto;
-}
+ 
 
 .logo{
   height:64px !important;
@@ -603,7 +584,7 @@ li {
 }
 
 
- /* ===== FINAL LOGO FIX ===== */
+ 
 
 .logo{
   height:72px !important;
@@ -629,7 +610,7 @@ li {
 }
 
 
- /* ===== PROFESSIONAL HEADER LAYOUT ===== */
+ 
 
 .site-header{
   background:#0B2A4A;
@@ -680,7 +661,7 @@ li {
 }
 
 
- /* ===== FULL WIDTH HERO FIX ===== */
+ 
 
 .hero{
   width:100%;
@@ -695,7 +676,7 @@ li {
 }
 
 
- /* ===== FULL WIDTH HERO FIX ===== */
+ 
 
 .hero{
   width:100%;
@@ -710,7 +691,7 @@ li {
 }
 
 
- /* ===== HERO PROFESSIONAL POLISH ===== */
+ 
 
 .hero h1{
   font-size:48px;
@@ -744,7 +725,7 @@ li {
 }
 
 
- /* ===== HEADER TO HERO SPACING FIX ===== */
+ 
 
 body{
   margin:0;
@@ -764,7 +745,7 @@ body{
 }
 assets\css\styles.css=assets\css\styles.css
 
- /* ===== HEADER TO HERO SPACING FIX ===== */
+ 
 
 body{
   margin:0;
@@ -782,4 +763,99 @@ body{
 .hero-inner{
   padding-top:10px;
 }
+
+ /* ===== GENESIS FINAL LAYOUT ===== */
+
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+}
+
+/* HEADER */
+
+.site-header{
+  background:#0B2A4A;
+  border-bottom:2px solid #1FA6A3;
+}
+
+.main-nav{
+  max-width:1200px;
+  margin:0 auto;
+  padding:16px 24px;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.logo{
+  height:64px;
+  width:auto;
+  display:block;
+}
+
+.logo-wrap{
+  display:flex;
+  align-items:center;
+}
+
+/* NAV */
+
+.nav-links{
+  display:flex;
+  gap:26px;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.nav-links a{
+  color:#ffffff;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.nav-links a:hover{
+  color:#1FA6A3;
+}
+
+/* HERO */
+
+.hero{
+  width:100%;
+  padding:90px 20px;
+  text-align:center;
+}
+
+.hero-inner{
+  max-width:900px;
+  margin:0 auto;
+}
+
+.hero h1{
+  font-size:46px;
+  margin-bottom:20px;
+  line-height:1.2;
+}
+
+.hero p{
+  font-size:20px;
+  margin-bottom:30px;
+}
+
+/* BUTTON */
+
+.btn{
+  padding:14px 28px;
+  border-radius:6px;
+  background:#1FA6A3;
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.btn:hover{
+  background:#178b89;
+}
+
 
