@@ -821,3 +821,24 @@ body{
   font-size:20px;
   margin-bottom:35px;
 }
+
+.verification{
+  padding:80px 20px;
+}
+
+.verification-inner{
+  max-width:800px;
+  margin:0 auto;
+}
+
+.verification h1{
+  margin-bottom:20px;
+}
+
+.verification h2{
+  margin-top:30px;
+}
+
+.verification ul{
+  margin-left:20px;
+}
