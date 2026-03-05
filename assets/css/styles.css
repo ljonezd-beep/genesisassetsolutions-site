@@ -535,3 +535,48 @@ li {
   white-space:nowrap;
 }
 
+
+ /* ===== PROFESSIONAL HEADER LAYOUT ===== */
+
+.site-header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+.main-nav{
+  max-width:1200px;
+  margin:0 auto;
+  padding:14px 28px;
+
+  display:flex !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  flex-wrap:nowrap !important;
+}
+
+.logo-wrap{
+  flex:0 0 auto;
+}
+
+.nav-links{
+  flex:1 1 auto;
+  display:flex !important;
+  justify-content:center !important;
+  align-items:center;
+  gap:28px;
+
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.nav-links a{
+  font-weight:600;
+  letter-spacing:.3px;
+}
+
+.main-nav .btn{
+  flex:0 0 auto;
+  white-space:nowrap;
+}
