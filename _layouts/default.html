@@ -2,12 +2,32 @@
 <html lang="en">
   <head>
     {% include head.html %}
-  </head>
+  
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ProfessionalService",
+ "name": "Genesis Asset Solutions LLC",
+ "areaServed": "Texas",
+ "telephone": "888-506-2708",
+ "email": "dustin@genesisassetsolutions.com",
+ "url": "https://ljonezd-beep.github.io/genesisassetsolutions-site/"
+}
+</script>
+</head>
   <body>
     {% include header.html %}
     <main>
       {{ content }}
     </main>
+<section class="content-section engagement">
+  <h2>Ready to find out if funds are waiting for you?</h2>
+  <p>Request a free unclaimed property check today.</p>
+  <p><a class="btn" href="{{ "/contact.html" | relative_url }}">Request a Free Property Check</a></p>
+  <p class="method-line">NAP: <strong>Genesis Asset Solutions LLC</strong> | <strong>888-506-2708</strong> | <strong>dustin@genesisassetsolutions.com</strong></p>
+</section>
+
+
     {% include footer.html %}
   </body>
 </html>
