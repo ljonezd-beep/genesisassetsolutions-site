@@ -679,3 +679,18 @@ li {
   color:#1FA6A3;
 }
 
+
+ /* ===== FULL WIDTH HERO FIX ===== */
+
+.hero{
+  width:100%;
+  max-width:none !important;
+  margin:0 !important;
+  padding:80px 20px;
+}
+
+.hero-inner{
+  max-width:900px;
+  margin:0 auto;
+}
+
