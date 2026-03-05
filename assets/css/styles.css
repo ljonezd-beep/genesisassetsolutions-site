@@ -579,19 +579,26 @@ li {
 .main-nav .btn{
   flex:0 0 auto;
   white-space:nowrap;
-}
-
- /* ===== LOGO VISUAL TRIM ===== */
-.logo-wrap{
-  overflow:hidden;
-  height:64px;
-  display:flex;
-  align-items:center;
-}
-
-.logo{
+}.logo{
   height:110px !important;
   width:auto;
   transform:translateY(-12px);
+}
+
+ /* ===== LOGO SAFE FIT (NO CROP) ===== */
+.logo-wrap{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:visible;
+  height:auto;
+}
+
+.logo{
+  height:64px !important;
+  width:auto !important;
+  transform:none !important;
+  object-fit:contain;
+  display:block;
 }
 
