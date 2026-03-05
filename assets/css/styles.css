@@ -254,7 +254,7 @@ a {
   text-decoration: none;
 }
 
-
+/* ===== GENESIS WEBSITE LAYOUT FIX ===== */
 
 body {
     line-height: 1.7;
@@ -316,7 +316,7 @@ li {
 
 body { background: #f5f5f5; }
 
-
+/* ===== GENESIS SITE CONTAINER FIX (Jekyll Layout) ===== */
 
 body {
   line-height: 1.7;
@@ -370,7 +370,11 @@ li {
   margin-bottom: 12px;
 }
 
-
+/* ===== HEADER FIX (override) ===== */
+.site-header {
+  background: var(--genesis-navy) !important;
+  border-bottom: 2px solid var(--accent-teal) !important;
+}
 
 .main-nav {
   max-width: 1100px;
@@ -427,7 +431,11 @@ li {
   margin: 0 !important;
 }
 
-
+/* ===== FORCE HEADER VISIBILITY (FINAL) ===== */
+.site-header {
+  background: #0B1F3B !important;
+  border-bottom: 2px solid #1FA6A3 !important;
+}
 
 .main-nav {
   display: flex !important;
@@ -477,7 +485,11 @@ li {
   white-space: nowrap !important;
   margin: 0 !important;
 }
- 
+ /* ===== HEADER LAYOUT FIX ===== */
+.site-header {
+  background:#0B1F3B !important;
+  border-bottom:2px solid #1FA6A3 !important;
+}
 
 .main-nav{
   display:flex !important;
@@ -524,7 +536,7 @@ li {
 }
 
 
- 
+ /* ===== PROFESSIONAL HEADER LAYOUT ===== */
 
 .site-header{
   position:sticky;
@@ -573,7 +585,14 @@ li {
   transform:translateY(-12px);
 }
 
- 
+ /* ===== LOGO SAFE FIT (NO CROP) ===== */
+.logo-wrap{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:visible;
+  height:auto;
+}
 
 .logo{
   height:64px !important;
@@ -584,7 +603,7 @@ li {
 }
 
 
- 
+ /* ===== FINAL LOGO FIX ===== */
 
 .logo{
   height:72px !important;
@@ -610,7 +629,7 @@ li {
 }
 
 
- 
+ /* ===== PROFESSIONAL HEADER LAYOUT ===== */
 
 .site-header{
   background:#0B2A4A;
@@ -661,7 +680,7 @@ li {
 }
 
 
- 
+ /* ===== FULL WIDTH HERO FIX ===== */
 
 .hero{
   width:100%;
@@ -676,7 +695,7 @@ li {
 }
 
 
- 
+ /* ===== FULL WIDTH HERO FIX ===== */
 
 .hero{
   width:100%;
@@ -691,7 +710,7 @@ li {
 }
 
 
- 
+ /* ===== HERO PROFESSIONAL POLISH ===== */
 
 .hero h1{
   font-size:48px;
@@ -725,27 +744,7 @@ li {
 }
 
 
- 
-
-body{
-  margin:0;
-}
-
-.site-header{
-  margin-bottom:0 !important;
-}
-
-.hero{
-  margin-top:0 !important;
-  padding-top:70px !important;
-}
-
-.hero-inner{
-  padding-top:10px;
-}
-assets\css\styles.css=assets\css\styles.css
-
- 
+ /* ===== HEADER TO HERO SPACING FIX ===== */
 
 body{
   margin:0;
@@ -764,67 +763,47 @@ body{
   padding-top:10px;
 }
 
- /* ===== GENESIS FINAL LAYOUT ===== */
+ /* ===== HEADER TO HERO SPACING FIX ===== */
 
 body{
   margin:0;
-  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
 }
-
-/* HEADER */
 
 .site-header{
-  background:#0B2A4A;
-  border-bottom:2px solid #1FA6A3;
+  margin-bottom:0 !important;
 }
-
-.main-nav{
-  max-width:1200px;
-  margin:0 auto;
-  padding:16px 24px;
-
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-}
-
-.logo{
-  height:64px;
-  width:auto;
-  display:block;
-}
-
-.logo-wrap{
-  display:flex;
-  align-items:center;
-}
-
-/* NAV */
-
-.nav-links{
-  display:flex;
-  gap:26px;
-  list-style:none;
-  margin:0;
-  padding:0;
-}
-
-.nav-links a{
-  color:#ffffff;
-  text-decoration:none;
-  font-weight:600;
-}
-
-.nav-links a:hover{
-  color:#1FA6A3;
-}
-
-/* HERO */
 
 .hero{
+  margin-top:0 !important;
+  padding-top:70px !important;
+}
+
+.hero-inner{
+  padding-top:10px;
+}
+
+.contact-form{
+  max-width:600px;
+  margin:60px auto;
+}
+
+.contact-form input{
   width:100%;
-  padding:90px 20px;
+  padding:12px;
+  margin:10px 0 20px 0;
+  border:1px solid #ccc;
+  border-radius:4px;
+}
+
+.contact-form button{
+  width:100%;
+}
+
+.hero{
+  background:linear-gradient(135deg,#0B2A4A,#155A9A);
+  padding:120px 20px;
   text-align:center;
+  color:white;
 }
 
 .hero-inner{
@@ -833,203 +812,12 @@ body{
 }
 
 .hero h1{
-  font-size:46px;
+  font-size:52px;
   margin-bottom:20px;
   line-height:1.2;
 }
 
 .hero p{
   font-size:20px;
-  margin-bottom:30px;
+  margin-bottom:35px;
 }
-
-/* BUTTON */
-
-.btn{
-  padding:14px 28px;
-  border-radius:6px;
-  background:#1FA6A3;
-  color:#fff;
-  text-decoration:none;
-  font-weight:600;
-}
-
-.btn:hover{
-  background:#178b89;
-}
-
-
-
- /* TRUST STRIP */
-
-.trust-strip{
-  background:#F5F7FA;
-  padding:40px 20px;
-  text-align:center;
-  font-size:18px;
-}
-
-.trust-inner{
-  max-width:900px;
-  margin:0 auto;
-}
-
-/* HOW IT WORKS */
-
-.how-it-works{
-  padding:80px 20px;
-  text-align:center;
-}
-
-.how-inner{
-  max-width:1000px;
-  margin:0 auto;
-}
-
-.steps{
-  display:flex;
-  gap:30px;
-  margin-top:40px;
-  justify-content:center;
-}
-
-.step{
-  flex:1;
-  padding:20px;
-}
-
-.step h3{
-  margin-bottom:10px;
-  color:#0B2A4A;
-}
-
-.step p{
-  font-size:16px;
-}
-
-
- /* RECOVERED ASSETS */
-
-.results{
-  background:#F5F7FA;
-  padding:80px 20px;
-  text-align:center;
-}
-
-.results-inner{
-  max-width:1000px;
-  margin:0 auto;
-}
-
-.results-grid{
-  display:flex;
-  gap:30px;
-  margin-top:40px;
-  justify-content:center;
-}
-
-.result{
-  flex:1;
-  padding:30px;
-  background:white;
-  border-radius:8px;
-  box-shadow:0 2px 8px rgba(0,0,0,0.08);
-}
-
-.result h3{
-  font-size:32px;
-  color:#1FA6A3;
-  margin-bottom:10px;
-}
-
-.result p{
-  font-size:16px;
-}
-
-
- /* WHY GENESIS */
-
-.why-genesis{
-  padding:80px 20px;
-  text-align:center;
-}
-
-.why-inner{
-  max-width:1000px;
-  margin:0 auto;
-}
-
-.why-grid{
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:30px;
-  margin-top:40px;
-}
-
-.why-item{
-  padding:30px;
-  background:#F5F7FA;
-  border-radius:8px;
-}
-
-.why-item h3{
-  margin-bottom:10px;
-  color:#0B2A4A;
-}
-
-.why-item p{
-  font-size:16px;
-}
-
-
-.site-header{
-  background:#0B2A4A;
-  border-bottom:2px solid #1FA6A3;
-}
-
-.main-nav{
-  max-width:1200px;
-  margin:0 auto;
-  padding:16px 24px;
-
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-}
-
-.logo{
-  height:60px;
-  width:auto;
-}
-
-.nav-links{
-  display:flex;
-  gap:28px;
-  list-style:none;
-  margin:0;
-  padding:0;
-}
-
-.nav-links a{
-  color:white;
-  text-decoration:none;
-  font-weight:600;
-}
-
-.nav-links a:hover{
-  color:#1FA6A3;
-}
-
-.nav-cta{
-  background:#1FA6A3;
-  padding:12px 20px;
-  border-radius:6px;
-  color:white;
-  text-decoration:none;
-  font-weight:600;
-}
-
-.nav-cta:hover{
-  background:#178b89;
-}
-
