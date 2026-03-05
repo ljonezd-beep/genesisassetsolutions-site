@@ -981,3 +981,55 @@ body{
   font-size:16px;
 }
 
+
+.site-header{
+  background:#0B2A4A;
+  border-bottom:2px solid #1FA6A3;
+}
+
+.main-nav{
+  max-width:1200px;
+  margin:0 auto;
+  padding:16px 24px;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.logo{
+  height:60px;
+  width:auto;
+}
+
+.nav-links{
+  display:flex;
+  gap:28px;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.nav-links a{
+  color:white;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.nav-links a:hover{
+  color:#1FA6A3;
+}
+
+.nav-cta{
+  background:#1FA6A3;
+  padding:12px 20px;
+  border-radius:6px;
+  color:white;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.nav-cta:hover{
+  background:#178b89;
+}
+
