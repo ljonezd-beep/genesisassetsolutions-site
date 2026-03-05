@@ -36,10 +36,13 @@ body {
   gap: 24px;
 }
 
-.logo {
-  height: 64px;
-  width: auto;
-  display: block;
+.logo{
+  height:72px !important;
+  width:auto !important;
+  display:block;
+  object-fit:contain;
+  margin:0;
+  padding:0;
 }
 .logo-wrap {
   padding: 6px 0;
@@ -389,10 +392,13 @@ li {
   flex: 0 0 auto;
 }
 
-.logo {
-  height: 64px;
-  width: auto;
-  display: block;
+.logo{
+  height:72px !important;
+  width:auto !important;
+  display:block;
+  object-fit:contain;
+  margin:0;
+  padding:0;
 }
 
 .nav-links {
@@ -466,10 +472,13 @@ li {
   text-decoration: underline !important;
 }
 
-.logo {
-  height: 64px !important;
-  width: auto !important;
-  display: block !important;
+.logo{
+  height:72px !important;
+  width:auto !important;
+  display:block;
+  object-fit:contain;
+  margin:0;
+  padding:0;
 }
 
 .btn {
@@ -497,8 +506,12 @@ li {
 }
 
 .logo{
-  height:64px !important;
+  height:72px !important;
   width:auto !important;
+  display:block;
+  object-fit:contain;
+  margin:0;
+  padding:0;
 }
 
 .nav-links{
@@ -521,3 +534,4 @@ li {
   flex:0 0 auto !important;
   white-space:nowrap;
 }
+
