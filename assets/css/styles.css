@@ -743,3 +743,43 @@ li {
   padding-bottom:100px;
 }
 
+
+ /* ===== HEADER TO HERO SPACING FIX ===== */
+
+body{
+  margin:0;
+}
+
+.site-header{
+  margin-bottom:0 !important;
+}
+
+.hero{
+  margin-top:0 !important;
+  padding-top:70px !important;
+}
+
+.hero-inner{
+  padding-top:10px;
+}
+assets\css\styles.css=assets\css\styles.css
+
+ /* ===== HEADER TO HERO SPACING FIX ===== */
+
+body{
+  margin:0;
+}
+
+.site-header{
+  margin-bottom:0 !important;
+}
+
+.hero{
+  margin-top:0 !important;
+  padding-top:70px !important;
+}
+
+.hero-inner{
+  padding-top:10px;
+}
+
