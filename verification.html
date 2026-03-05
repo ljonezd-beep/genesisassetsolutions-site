@@ -2,16 +2,31 @@
 layout: default
 title: "Verification"
 description: "Public verification details for Genesis Asset Solutions LLC."
----<section class="content-section">
+---
+
+<section class="content-section">
   <h2>Verification</h2>
+
   <p><strong>{{ site.title }}</strong></p>
+
   <p><strong>Service:</strong> Unclaimed property and asset recovery services</p>
+
   <p><strong>Service Area:</strong> {{ site.service_area }}</p>
-  <p><strong>Phone:</strong> <a href="tel:{{ site.phone | replace: "-", "" }}">{{ site.phone }}</a></p>
-  <p><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+
+  <p><strong>Phone:</strong>
+    <a href="tel:{{ site.phone | replace: ' ', '' }}">{{ site.phone }}</a>
+  </p>
+
+  <p><strong>Email:</strong>
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+  </p>
+
   <p><strong>Website:</strong> {{ site.url }}</p>
 
   <p>This page exists to support accurate business verification and directory listings.</p>
 
-  <p class="method-line">NAP: <strong>{{ site.title }}</strong> | <strong>{{ site.phone }}</strong> | <strong>{{ site.email }}</strong></p>
+  <p class="method-line">
+    NAP: <strong>{{ site.title }}</strong> |
+    <strong>{{ site.phone }}</strong>
+  </p>
 </section>
