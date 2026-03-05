@@ -602,3 +602,29 @@ li {
   display:block;
 }
 
+
+ /* ===== FINAL LOGO FIX ===== */
+
+.logo{
+  height:72px !important;
+  width:auto !important;
+  max-height:none !important;
+  display:block;
+}
+
+.logo-wrap{
+  display:flex;
+  align-items:center;
+  overflow:visible !important;
+}
+
+.site-header{
+  padding-top:10px !important;
+  padding-bottom:10px !important;
+}
+
+.main-nav{
+  align-items:center !important;
+  min-height:90px !important;
+}
+
