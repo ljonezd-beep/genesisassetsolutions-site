@@ -5,3 +5,5 @@ vendor/
 Gemfile.lock
 *.bak_*
 *.bak_*.*
+
+_site/
