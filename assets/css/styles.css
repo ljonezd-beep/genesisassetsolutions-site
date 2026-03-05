@@ -580,3 +580,18 @@ li {
   flex:0 0 auto;
   white-space:nowrap;
 }
+
+ /* ===== LOGO VISUAL TRIM ===== */
+.logo-wrap{
+  overflow:hidden;
+  height:64px;
+  display:flex;
+  align-items:center;
+}
+
+.logo{
+  height:110px !important;
+  width:auto;
+  transform:translateY(-12px);
+}
+
