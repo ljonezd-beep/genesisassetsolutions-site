@@ -946,3 +946,38 @@ body{
   font-size:16px;
 }
 
+
+ /* WHY GENESIS */
+
+.why-genesis{
+  padding:80px 20px;
+  text-align:center;
+}
+
+.why-inner{
+  max-width:1000px;
+  margin:0 auto;
+}
+
+.why-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:30px;
+  margin-top:40px;
+}
+
+.why-item{
+  padding:30px;
+  background:#F5F7FA;
+  border-radius:8px;
+}
+
+.why-item h3{
+  margin-bottom:10px;
+  color:#0B2A4A;
+}
+
+.why-item p{
+  font-size:16px;
+}
+
