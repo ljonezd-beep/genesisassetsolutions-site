@@ -1,0 +1,15 @@
+{
+  "name": "Genesis Asset Solutions LLC",
+  "short_name": "Genesis",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0B1F3B",
+  "icons": [
+    {
+      "src": "assets/img/Genesis_Logo_Master.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
